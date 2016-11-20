@@ -16,16 +16,6 @@
   color: white;
 }
 
-.logoImage{
-  width: 303px;
-  height: 90px;
-}
-
-.logoHeader{
-  display: flex;
-  justify-content: space-between;
-}
-
 .App-intro {
   font-size: large;
 }
