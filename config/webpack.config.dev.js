@@ -116,7 +116,19 @@ module.exports = {
       // in development "style" loader enables hot editing of CSS.
       {
         test: /\.css$/,
-        loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss'
+        loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss',
+        exclude: [
+          /App\.css$/,
+          /node_modules/
+        ]
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css?importLoaders=1!postcss',
+        include: [
+          /App\.css$/,
+          /react-image-gallery/
+        ]
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
