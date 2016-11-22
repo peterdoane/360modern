@@ -1,0 +1,12 @@
+.page {
+ display: flex;
+ flex-direction: column;
+}
+.section {
+  display: flex;
+  flex: 1;
+}
+.sectionOneLogo{}
+.sectionSubHeader{}
+.sectionText{}
+.linkButton{}
