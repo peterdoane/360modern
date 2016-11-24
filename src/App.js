@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import MainLayout from './layouts/MainLayout';
 import HomePage from './pages/HomePage';
+import FeaturedHomes from './pages/FeaturedHomes';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <Router history={browserHistory}>
        <Route path="/" component={MainLayout}>
          <IndexRoute component={HomePage} />
-         <Route path="about" component={HomePage} />
+         <Route path="featured-homes" component={FeaturedHomes} />
        </Route>
      </Router>
     );

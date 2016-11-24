@@ -1,10 +1,11 @@
-import React from 'react';
-import styles from './SubHeader.css';
+import React from "react";
+import styles from "./SubHeader.css";
 
 const LogoHeader = () => {
   return <div className={styles.logoHeader}>
     <div>
-      <img className={styles.logoImage} src='http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg' />
+      {/* TODO: Make it IndexLink */}
+      <a href="/" className={styles.logoImage}/>
     </div>
     <div>
       <a>Join Modmail</a>

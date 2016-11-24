@@ -2,11 +2,21 @@
  display: flex;
  flex-direction: column;
 }
+
 .section {
   display: flex;
   flex: 1;
+  padding-bottom: 50px;
 }
-.sectionOneLogo{}
+.section > .left, .right {
+  flex: 1;
+}
+.sectionOneLogo {
+    align-items: center;
+    justify-content: center;
+    width: 199px;
+    height: 223px;
+}
 .sectionSubHeader{}
 .sectionText{}
 .linkButton{}

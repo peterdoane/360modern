@@ -1,9 +1,11 @@
-.logoImage{
+.logoImage {
+  display: block;
   width: 303px;
   height: 90px;
+  background: url("./logo.png") no-repeat;
 }
 
-.logoHeader{
+.logoHeader {
   display: flex;
   justify-content: space-between;
 }

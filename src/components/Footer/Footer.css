@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+}
+
+.copyright {
+  flex: 1
+}
+
+.logo1 {
+  width: 149px;
+  height: 50px;
+}
+
+.houseIcon {
+  align-self: center;
+  width: 31px;
+  height: 33px;
+}
+
+.contacts {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
